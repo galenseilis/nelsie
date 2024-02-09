@@ -2,37 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://spirali.github.io/nelsie/</loc>
-         <lastmod>2024-02-08</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://spirali.github.io/nelsie/api/</loc>
-         <lastmod>2024-02-08</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://spirali.github.io/nelsie/examples/</loc>
-         <lastmod>2024-02-08</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://spirali.github.io/nelsie/getting_started/</loc>
-         <lastmod>2024-02-08</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://spirali.github.io/nelsie/install/</loc>
-         <lastmod>2024-02-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://spirali.github.io/nelsie/guide/deck/</loc>
-         <lastmod>2024-02-08</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://spirali.github.io/nelsie/guide/steps/</loc>
-         <lastmod>2024-02-08</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
