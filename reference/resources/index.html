@@ -12,13 +12,11 @@
         <meta name="author" content="Ada Böhm">
       
       
-        <link rel="canonical" href="https://spirali.github.io/nelsie/reference/output/">
+        <link rel="canonical" href="https://spirali.github.io/nelsie/reference/resources/">
       
       
-        <link rel="prev" href="../../guide/steps/">
+        <link rel="prev" href="../debug_layout/">
       
-      
-        <link rel="next" href="../debug_layout/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +24,7 @@
     
     
       
-        <title>Output formats - Nelsie</title>
+        <title>Resources - Nelsie</title>
       
     
     
@@ -68,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#output-formats" class="md-skip">
+        <a href="#resources" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Output formats
+              Resources
             
           </span>
         </div>
@@ -460,30 +458,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Output formats
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../output/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -492,53 +470,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#rendering-into-pdf" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rendering into PDF
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rendering-into-svg-or-png" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rendering into SVG or PNG
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#in-memory-rendering" class="md-nav__link">
-    <span class="md-ellipsis">
-      In-memory rendering
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -569,10 +500,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -581,6 +532,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example-registering-own-fonts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example: Registering own fonts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-reusing-resources-in-more-slide-decks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example: Reusing resources in more slide decks
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -620,27 +609,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rendering-into-pdf" class="md-nav__link">
+  <a href="#example-registering-own-fonts" class="md-nav__link">
     <span class="md-ellipsis">
-      Rendering into PDF
+      Example: Registering own fonts
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#rendering-into-svg-or-png" class="md-nav__link">
+  <a href="#example-reusing-resources-in-more-slide-decks" class="md-nav__link">
     <span class="md-ellipsis">
-      Rendering into SVG or PNG
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#in-memory-rendering" class="md-nav__link">
-    <span class="md-ellipsis">
-      In-memory rendering
+      Example: Reusing resources in more slide decks
     </span>
   </a>
   
@@ -664,42 +644,30 @@
   
 
 
-<h1 id="output-formats">Output formats<a class="headerlink" href="#output-formats" title="Permanent link">#</a></h1>
-<p>This section shows you how to get slides in PDF, SVG or PNG and how to render slides into files or
-how to get them as Python objects.</p>
-<h2 id="rendering-into-pdf">Rendering into PDF<a class="headerlink" href="#rendering-into-pdf" title="Permanent link">#</a></h2>
-<p>By default, the <code>.render()</code> method on a slide deck takes a filename and creates a PDF file. </p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span> <span class="nn">nelsie</span> <span class="kn">import</span> <span class="n">SlideDeck</span>
+<h1 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h1>
+<p>An instance of the Resources class holds information about fonts and loaded images.
+By default, an instance of SlideDeck creates its own instance of Resources,
+but you can create your own instance and pass it to the SlideDeck constructor.</p>
+<p>There are two scenarios where it is useful to create your own instance of `Resources'.</p>
+<ul>
+<li>You want to register your own fonts</li>
+<li>You create more instances of <code>SlideDeck</code> and you want to skip some initialization related to font detection or to skip loading the same images repeatedly.</li>
+</ul>
+<h2 id="example-registering-own-fonts">Example: Registering own fonts<a class="headerlink" href="#example-registering-own-fonts" title="Permanent link">#</a></h2>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span> <span class="nn">nelsie</span> <span class="kn">import</span> <span class="n">Resources</span><span class="p">,</span> <span class="n">SlideDeck</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">deck</span> <span class="o">=</span> <span class="n">SlideDeck</span><span class="p">()</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1"># Add slides here</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">deck</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="s2">&quot;slides.pdf&quot;</span><span class="p">)</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">resources</span> <span class="o">=</span> <span class="n">Resources</span><span class="p">()</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">resources</span><span class="o">.</span><span class="n">load_fonts_dir</span><span class="p">(</span><span class="s2">&quot;path/to/fonts&quot;</span><span class="p">)</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">deck</span> <span class="o">=</span> <span class="n">SlideDeck</span><span class="p">(</span><span class="n">resources</span><span class="o">=</span><span class="n">resources</span><span class="p">)</span>
 </span></code></pre></div>
-<h2 id="rendering-into-svg-or-png">Rendering into SVG or PNG<a class="headerlink" href="#rendering-into-svg-or-png" title="Permanent link">#</a></h2>
-<p>By setting the second parameter to "svg" or "png", you can change the output format to SVG or PNG.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span> <span class="nn">nelsie</span> <span class="kn">import</span> <span class="n">SlideDeck</span>
+<h2 id="example-reusing-resources-in-more-slide-decks">Example: Reusing resources in more slide decks<a class="headerlink" href="#example-reusing-resources-in-more-slide-decks" title="Permanent link">#</a></h2>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span> <span class="nn">nelsie</span> <span class="kn">import</span> <span class="n">Resources</span><span class="p">,</span> <span class="n">SlideDeck</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">deck</span> <span class="o">=</span> <span class="n">SlideDeck</span><span class="p">()</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">resources</span> <span class="o">=</span> <span class="n">Resources</span><span class="p">()</span>
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1"># Add slides here</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="n">deck</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="s2">&quot;output/path1&quot;</span><span class="p">,</span> <span class="s2">&quot;svg&quot;</span><span class="p">)</span> <span class="c1"># Render slides to SVG </span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="n">deck</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="s2">&quot;output/path2&quot;</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span> <span class="c1"># Render slides to PNG</span>
-</span></code></pre></div>
-<p>Unlike PDF, the first parameter is not a path to a file, but to a directory where 
-Nelsie creates SVG (or PNG) images, one image per slide page. 
-Nelsie will create the target directory if it does not exist.
-Images are named in the format "X-Y.svg" (or "X-Y.png"), where X is the slide index and Y is a step. </p>
-<h2 id="in-memory-rendering">In-memory rendering<a class="headerlink" href="#in-memory-rendering" title="Permanent link">#</a></h2>
-<p>If the first parameter of the <code>.render()</code> method is <code>None</code> then Nelsie does not create files but returns
-the images as Python objects. It returns a list of triplets (<code>slide_id</code>, <code>step</code>, <code>data</code>) where <code>data</code> are
-<code>bytes</code> instance with the image.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">pages</span> <span class="o">=</span> <span class="n">deck</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span> 
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">pages</span><span class="p">)</span>  <span class="c1"># Print returned triplets with pages</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">deck1</span> <span class="o">=</span> <span class="n">SlideDeck</span><span class="p">(</span><span class="n">resources</span><span class="o">=</span><span class="n">resources</span><span class="p">)</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">deck2</span> <span class="o">=</span> <span class="n">SlideDeck</span><span class="p">(</span><span class="n">resources</span><span class="o">=</span><span class="n">resources</span><span class="p">)</span>
 </span></code></pre></div>
 
 
